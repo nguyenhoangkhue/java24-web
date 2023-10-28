@@ -1,0 +1,53 @@
+/* reset browser */
+/* khoang cach tu phan tu nay den phan tu khac */
+*{
+  margin: 0px; 
+  padding:0px
+}
+
+p{
+    color:blueviolet !important;
+    font-size: 20px;
+}
+
+/* dat ten theo class */
+.title-1{color:aqua}
+.title-2{color:rgb(241, 119, 223)}
+
+/* dat ten theo id */
+#title_1 {color:red ;}
+
+/* dat ten cha con */
+div h4{color:aquamarine}
+h4{color:pink}
+
+/* 
++co chon css voi the link 
++link:ap dung cho the chua dc click
++visited:ap dung cho the a da dc click
+*/
+a:link{color:black;
+}
+a:visited{color:rgb(0, 255, 47);
+}
+
+.para-3{font-style: italic;}
+
+.box-1{background-color: aqua;
+width: 300px;
+height: 300px;
+border: 5px dotted black;
+/* bo vien phan tu */
+border-radius: 50%  ;
+}
+
+/* dotted:dut 
+solid:lien
+*/
+
+.box-2{background-color: black;
+width: 100px;
+height: 100px;
+margin-left: 100px;
+display:none
+}
