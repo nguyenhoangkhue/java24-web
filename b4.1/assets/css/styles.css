@@ -1,0 +1,56 @@
+/* reset browser */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 800px;
+    background-color: pink;
+    /* de su dung bat buoc phai co */
+    display: flex;
+
+    /* flex direction giup xd dc huong cua ptu con */
+    /* flex wrap: kich thyoc cua phan tu con lon hon man hinh-> tu dong chuyen hang*/
+    /* justify content:su dung nhieu->phai nho
+    xac dinh vi tri phan tu theo chieu ngang */
+    /* align item: xac dinh vi tri phan tu theo chieu doc
+    su dung rat nhieu */
+    /* align content: can chinh cac item tren nhieu hang */
+}
+
+
+.box-1{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    font-size: 40px;
+    color: aqua;
+}
+
+.box-2{
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    font-size: 40px;
+    color: brown;
+}
+
+.box-3{
+    background-color: rgb(155, 255, 208);
+    width: 200px;
+    height: 200px;
+    font-size: 40px;
+    color: rgb(234, 0, 255);
+    
+}
+
+.box-4{
+    background-color: #f80000;
+    width: 200px;
+    height: 200px;
+    font-size: 40px;
+    color: rgb(115, 188, 167);
+}
