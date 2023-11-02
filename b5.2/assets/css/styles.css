@@ -1,0 +1,54 @@
+/* reset browser */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+/* do rong cua column */
+.column-4{
+    width: calc(100%/4);
+}
+
+.column-3{
+    width: calc(100%/3);
+}
+
+/* sphot */
+.hotproduct{
+    width: 100%;
+    /* height: 600px; */
+    margin-top: 10px;
+}
+
+.content{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    margin-bottom: 30px;
+}
+
+.row{
+    display: flex;
+    margin: 0 20px;
+    flex-wrap: wrap;
+
+    /* margin: top right bot left */
+}
+
+.column{
+    padding: 15px 15px;
+}
+
+.saleproduct{
+    width: 100%;
+    margin-top: 10px;
+}
