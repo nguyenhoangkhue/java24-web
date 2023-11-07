@@ -1,0 +1,48 @@
+/* reset browser */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box-1{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    transform: translate(100px,100px);
+}
+
+.box-2{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-left: 300px;
+}
+
+.box-2:hover{
+    transform: scale(2,2);
+}
+
+/* transform: rotate */
+.box-3{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin-left: 50px;
+    transform: rotate(45deg);
+}
+
+/* <!-- ket hop giua transition va transform de tao hieu ung css --> */
+.box-4{
+    width: 200px;
+    height: 200px;
+    background-color: lightpink;
+    margin-left: 100px;
+    transition: width 2s,height 2s,transform 2s ;
+}
+
+.box-4:hover{
+    width: 400px;
+    height: 400px;
+    transform: rotate(45deg);
+}

@@ -1,0 +1,59 @@
+/* reset browser */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* thay doi gia tri cua 1 thuoc tinh vs transition */
+.box-1{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition: width 1s;
+}
+
+.box-1:hover{
+    width: 600px;
+}
+
+/* thay doi gia tri cua nhieu thuoc tinh */
+
+.box-2{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    transition: width 3s, height 4s;
+}
+
+.box-2:hover{
+    width: 600px;
+    height: 800px;
+}
+
+/* transition-timing-function */
+.box-3{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    transition: width 5s, height 5s;
+    transition-timing-function: ease-in-out;
+}
+
+.box-3:hover{
+    width: 500px;
+    height: 500px;
+}
+
+/* transition delay */
+.box-4{
+    width: 200px;
+    height: 200px;
+    background-color: hotpink;
+    transition: width 2s;
+    transition-delay: 0.5s;
+}
+
+.box-4:hover{
+    width: 600px;
+}
