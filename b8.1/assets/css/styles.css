@@ -1,0 +1,117 @@
+/* reser browser */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* loading css */
+.loading{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 8px solid greenyellow;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    margin: auto;
+    /* de su dung 
+cu phap animation:
+animation:cu phap
+animation name: ten animation
+animation duration: thoi gian chuyen dong
+animation delay: tri hoan
+animation interation count: cach no xoay
+animation direction: huong chay
+animation timing function: quy dinh cach no chuyen dong ntn
+animation fill mode: xac dinh trang thai cuoi cung cua animation
+    */
+    animation: loading-css 2s infinite linear;
+}
+
+
+@keyframes loading-css {
+    from{
+        transform: rotate(0deg);
+    } 
+
+    to{
+        transform: rotate(360deg);
+    }   
+}
+
+/* 
+from: tu
+to: den */
+
+/* heart-beat css */
+/* .heart-beat{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    margin-top: 100px;
+    animation: heart-beat 0.2s infinite linear;
+}
+
+@keyframes heart-beat{
+    from{
+        transform: scale(1,1);
+    }
+    to{
+        transform: scale(2,2);
+    }
+} */
+
+/* Cach 1 */
+.heat-beat div:nth-child(1)
+
+/* Cach 2: ptu dau va ptu cuoi */
+.heart-beat div:first-child
+.heart-beat div:last-child
+
+
+
+.heart{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    position: relative;
+    animation: heart-beat 0.2s infinite linear;
+}
+
+.heart div{
+    background-color: red;
+    width: 40px;
+    height: 40px;
+}
+
+.heart div:nth-child(1){
+    position: absolute;
+    border-radius: 50% 0 0 50%;
+    transform: rotate(45deg);
+    top: 300px;
+    left: 300px;
+}
+
+.heart div:nth-child(2){
+    position: absolute;
+    border-radius: 50% 50% 0 0;
+    transform: rotate(45deg);
+    top: 300px;
+    left: 340px;
+}
+
+.heart div:nth-child(3){
+    position: absolute;
+    transform: rotate(45deg);
+    top: 320px;
+    left: 320px;
+}
+
+@keyframes heart-beat {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(2);
+    }
+}

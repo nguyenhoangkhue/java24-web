@@ -190,3 +190,7 @@
 .header-bottom-right p{
     color: white;
 }
+
+.slide-main .owl-carousel .owl-dots{
+    margin-top: -30px;
+}
